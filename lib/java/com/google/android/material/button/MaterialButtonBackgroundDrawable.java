@@ -25,14 +25,14 @@ import android.graphics.drawable.InsetDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.RippleDrawable;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * Background drawable used by {@link MaterialButton} on API 21+.
  *
  * <p>This class enables a workaround for API 21. On API 21, {@link
- * android.support.v7.widget.AppCompatButton} calls {@link #setColorFilter(ColorFilter)} instead of
+ * androidx.appcompat.widget.AppCompatButton} calls {@link #setColorFilter(ColorFilter)} instead of
  * {@link #setTintList(ColorStateList)}, since certain drawables (e.g. {@link GradientDrawable})
  * don't implement tinting in API 21. However, setting a color filter on the entire {@link
  * RippleDrawable} was resulting in losing our stroke and ripple colors, since they would also be

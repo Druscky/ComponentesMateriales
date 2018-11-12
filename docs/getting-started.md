@@ -43,9 +43,9 @@ libraries.
 
 If you don't want to switch over to the new `androidx` and
 `com.google.android.material` packages yet, you can use Material Components via
-the `com.android.support:design:28.0.0` dependency.
+the `com.androidx:design:1.0.0` dependency.
 
-Note: You should not use the `com.android.support` and
+Note: You should not use the `com.androidx` and
 `com.google.android.material` dependencies in your app at the same time.
 
 ### 2. Compile your app with Android P

@@ -18,8 +18,8 @@ package io.material.catalog.feature;
 
 import io.material.catalog.R;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 /** Utils for feature demos. */
 public abstract class FeatureDemoUtils {

@@ -16,11 +16,11 @@
 
 package com.google.android.material.internal;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
 
 import android.graphics.Outline;
-import android.support.annotation.RequiresApi;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RequiresApi;
+import androidx.annotation.RestrictTo;
 
 /** Lollipop version of {@link CircularBorderDrawable}. */
 @RequiresApi(21)

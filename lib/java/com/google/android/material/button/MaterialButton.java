@@ -18,7 +18,7 @@ package com.google.android.material.button;
 
 import com.google.android.material.R;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -30,22 +30,22 @@ import android.graphics.PorterDuff.Mode;
 import android.graphics.drawable.Drawable;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.ColorInt;
-import android.support.annotation.ColorRes;
-import android.support.annotation.DimenRes;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.IntDef;
-import android.support.annotation.Nullable;
-import android.support.annotation.Px;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.ColorInt;
+import androidx.annotation.ColorRes;
+import androidx.annotation.DimenRes;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.IntDef;
+import androidx.annotation.Nullable;
+import androidx.annotation.Px;
+import androidx.annotation.RestrictTo;
 import com.google.android.material.internal.ThemeEnforcement;
 import com.google.android.material.internal.ViewUtils;
 import com.google.android.material.resources.MaterialResources;
-import android.support.v4.graphics.drawable.DrawableCompat;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.widget.TextViewCompat;
-import android.support.v7.content.res.AppCompatResources;
-import android.support.v7.widget.AppCompatButton;
+import androidx.core.graphics.drawable.DrawableCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.widget.TextViewCompat;
+import androidx.appcompat.content.res.AppCompatResources;
+import androidx.appcompat.widget.AppCompatButton;
 import android.util.AttributeSet;
 import android.util.Log;
 import java.lang.annotation.Retention;
@@ -178,7 +178,7 @@ public class MaterialButton extends AppCompatButton {
 
   /**
    * This should be accessed via {@link
-   * android.support.v4.view.ViewCompat#setBackgroundTintList(android.view.View, ColorStateList)}
+   * androidx.core.view.ViewCompat#setBackgroundTintList(android.view.View, ColorStateList)}
    *
    * @hide
    */
@@ -196,7 +196,7 @@ public class MaterialButton extends AppCompatButton {
 
   /**
    * This should be accessed via {@link
-   * android.support.v4.view.ViewCompat#getBackgroundTintList(android.view.View)}
+   * androidx.core.view.ViewCompat#getBackgroundTintList(android.view.View)}
    *
    * @hide
    */
@@ -216,7 +216,7 @@ public class MaterialButton extends AppCompatButton {
 
   /**
    * This should be accessed via {@link
-   * android.support.v4.view.ViewCompat#setBackgroundTintMode(android.view.View, PorterDuff.Mode)}
+   * androidx.core.view.ViewCompat#setBackgroundTintMode(android.view.View, PorterDuff.Mode)}
    *
    * @hide
    */
@@ -234,7 +234,7 @@ public class MaterialButton extends AppCompatButton {
 
   /**
    * This should be accessed via {@link
-   * android.support.v4.view.ViewCompat#getBackgroundTintMode(android.view.View)}
+   * androidx.core.view.ViewCompat#getBackgroundTintMode(android.view.View)}
    *
    * @hide
    */
